@@ -1,6 +1,6 @@
 name: just_audio_example
 description: Demonstrates how to use the just_audio plugin.
-publish_to: 'none'
+publish_to: "none"
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
@@ -9,9 +9,11 @@ dependencies:
   flutter:
     sdk: flutter
   audio_session: ^0.1.7
-  rxdart: '^0.27.0'
-  just_audio_mpv: ^0.1.4
-  just_audio_windows: ^0.1.0
+  rxdart: "^0.27.0"
+  #just_audio_mpv: ^0.1.4
+  #just_audio_windows: ^0.1.0
+  just_audio_vlc:
+    path: ../../../just_audio_vlc
   # Other platform implementations below:
   # just_audio_libwinmedia: ^0.0.4
   just_audio:
